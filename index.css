@@ -101,6 +101,8 @@ body {
 .info-block .ctrl__arrow {
 	width: 42px;
 	height: 14px;
+}
+.info-block .ctrl__arrow:hover {
 	cursor: pointer;	
 }
 .info-block .ctrl__arrow_left {
@@ -119,10 +121,12 @@ body {
 	height: 9.5px;
 
 	border-radius: 50%;
-	cursor: pointer;
 
 	background-color: #fff5;
 	transition: background-color 0.45s ease-in-out;
+}
+.info-block .ctrl__dot:hover {
+	cursor: pointer;
 }
 .info-block .ctrl__dot:hover:not(.ctrl__dot-active) {
 	outline: #fff5 solid 1px;
@@ -157,15 +161,16 @@ body {
 	font-family: "Yeseva One", serif;
 	color: #e3b873;
 }
-.demo-block .demo-block__links:hover {
-	cursor: pointer;
-}
 .demo-block .demo-block__links .link-underline {
 	margin-top: 5px;
 	height: 1px;
+	pointer-events: none;   /*!!!*/
 	background-color: #e3b873;
 
 	transition: opacity 0.45s ease-in-out;
+}
+.demo-block .demo-block__link:hover {
+	cursor: pointer;
 }
 
 
