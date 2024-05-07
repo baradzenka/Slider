@@ -103,7 +103,8 @@ body {
 	height: 14px;
 }
 .info-block .ctrl__arrow:hover {
-	cursor: pointer;	
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
 }
 .info-block .ctrl__arrow_left {
 	background-image: url("images/arrow_left.svg");
@@ -127,6 +128,7 @@ body {
 }
 .info-block .ctrl__dot:hover {
 	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
 }
 .info-block .ctrl__dot:hover:not(.ctrl__dot-active) {
 	outline: #fff5 solid 1px;
@@ -171,6 +173,7 @@ body {
 }
 .demo-block .demo-block__link:hover {
 	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
 }
 
 
